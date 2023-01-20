@@ -5,10 +5,11 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class MonitoringController {
+    String status = "Everything works as expected";
 
     @GetMapping("/api/message")
     public String getStatus(){
-        return "Everything works as expected";
+        return status;
     }
 
 }
