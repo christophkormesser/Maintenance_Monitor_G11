@@ -40,6 +40,5 @@ git pull
 git checkout -b feat/{isseuId}/{description}
 ```
 3. Implement the feature
-4. **Create tests** for the added feature, there is no feature without tests
 5. Create a pull request to `dev` and assign a reviewer and somebody that will merge the branch (can be the same person).
 
