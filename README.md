@@ -2,7 +2,7 @@
 
 ## Introduction
 This repository is a simple Spring Web Rest-Controller created for an assignment.
-The specification was as following: 
+The specification was the following: 
 ```sh
 We are a small hydro-power electricity supplier near Vienna. 
 Our customers expect electricity around the clock with a very high service level agreement. 
