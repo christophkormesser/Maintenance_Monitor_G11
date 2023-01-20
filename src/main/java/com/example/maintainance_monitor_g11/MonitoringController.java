@@ -12,4 +12,10 @@ public class MonitoringController {
         return status;
     }
 
+    @GetMapping("/api/message/set")
+    public String setStatus(String status){
+        this.status = status;
+        return "ok";
+    }
+
 }
